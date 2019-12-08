@@ -3,18 +3,9 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
-using RestSharp;
 using System;
 using System.IO;
 using System.Reflection;
-using TestProject.SDK;
-using TestProject.SDK.PageObjects;
-using Newtonsoft.Json;
-using RestSharp.Serialization.Json;
-using Desafio.DataTypes;
-using OpenQA.Selenium.Remote;
-using System.Threading;
-using System.Net;
 
 namespace Tests
 {

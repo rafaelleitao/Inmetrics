@@ -3,9 +3,6 @@ using NUnit.Framework;
 using RestSharp;
 using System.Net;
 using Newtonsoft.Json.Linq;
-using RestSharp.Serialization.Json;
-using Desafio.DataTypes;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace Desafio.Tests
@@ -23,7 +20,7 @@ namespace Desafio.Tests
                 new RestRequest(Method.GET);
             // execução do request
             var response = client.Execute(request);
-            
+            // obtem conteudo do response para manipulação
             string rawResponse = response.Content;
 
             // rawResponse contém json puro
