@@ -42,6 +42,7 @@ namespace Desafio.Tests
                     Console.WriteLine("Diretor: "+director+" Produtor(es): "+producer+" Titulo do Filme : "+title);
                 }
             }
+            //Validação do status code da resposta do serviço
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
 
         }
