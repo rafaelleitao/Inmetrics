@@ -1,11 +1,11 @@
-﻿Feature: Acesso a LP de Vagas 
-	A fim de Aplicar para uma vaga na INMETRICS
-	Eu como um candidato
-	Eu desejo acessar a pagina com as vagas abertas.
+﻿Feature: Access carreers page  
+	in order to make an application to an open opportunity in the Inmetrics carrers web page
+	i as a candidate
+	i desire to see all open opportunities listed in the web page
 
 @mytag
-Scenario: Acessar pagina de vagas
-	Given Eu acessei a url base 
-	And Localizei o botão “confira nossas vagas”. 
-	When eu clico no botão “confira nossas vagas”.
-	Then A pagina com as vagas em aberto é devidaemnte exibida
+Scenario: Access carreers page 
+	Given I accessed the home page
+	And Located the "check our opportunities" button.
+	When I click on the "check our opportunities" button.
+	Then The open opportunities page is properly displayed

@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestProject.SDK.PageObjects;
 using OpenQA.Selenium.Support.UI;
-using System.Threading;
 using OpenQA.Selenium.Interactions;
 
 namespace Desafio.POM
